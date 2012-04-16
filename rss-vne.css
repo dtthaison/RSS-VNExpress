@@ -1,0 +1,14 @@
+@CHARSET "utf-8";
+#rss-vnexpress {}
+#rss-vnexpress img{display: block; margin-left: 30px;}
+#rss-vnexpress .vne-item{margin-top: 15px;}
+#rss-vnexpress .vne-item:FIRST-CHILD{margin:0;}
+#rss-vnexpress p{line-height: 16px; margin: 0;}
+#rss-vnexpress .vne-pubdate{}
+
+.entry-content {}
+.entry-content .vne-item{margin-top: 20px;}
+.entry-content img{display: block; float: left; margin: 5px 10px 0 0;}
+.entry-content h4{margin: 0 !important; padding: 0;}
+.entry-content p{line-height: 20px; margin: 0 !important;}
+.entry-content .vne-pubdate{}
