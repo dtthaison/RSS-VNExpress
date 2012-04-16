@@ -10,8 +10,8 @@ Plugin URI:
 
 /* Version Check */
 global $wp_version;
-$exit_msg = ' This Plugin  require WordPress 3.3.1 or newer. <a href="http://codex.wordpress.com/Upgrading_WordPress">Please update!</a>';
-if(version_compare($wp_version, "3.3.1", "<")) {
+$exit_msg = ' This Plugin  require WordPress 3.0 or newer. <a href="http://wordpress.org/download/">Please update!</a>';
+if(version_compare($wp_version, "3.0", "<")) {
 	exit($exit_msg);
 }
 	
